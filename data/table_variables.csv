@@ -1,0 +1,110 @@
+nom_abrege,libelle,type,longueur,dessin_M,dessin_L,dessin_XL,url
+SIREN,Identifiant de l’entreprise,Alphanumérique,9,Oui,Oui,Oui,/sirene/public/variable/siren
+NIC,Numéro interne de classement de l’établissement,Alphanumérique,5,Oui,Oui,Oui,/sirene/public/variable/nic
+L1_NOMEN,Nom ou raison sociale de l’entreprise pour l’adressage,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l1-nomen
+L2_COMP,Complément de nom de l’entreprise pour l’adressage,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l2-comp
+L3_CADR,Complément d’adresse pour l’adressage,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l3-cadr
+L4_VOIE,Numéro et libellé dans la voie,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l4-voie
+L5_DISP,Distribution spéciale,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l5-disp
+L6_POST,Ligne d’acheminement postal pour l’adressage,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l6-post
+L7_ETRG,Libellé du pays pour les adresses à l’étranger,Alphanumérique,38,Oui,Oui,Oui,/sirene/public/variable/l7-etrg
+RPET,Région de localisation de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/rpet
+LIBREG,Libellé de la région,Alphanumérique,70,Oui,Non,Non,/sirene/public/variable/syr-libreg
+DEPET,Département de localisation de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/depet
+ARRONET,Arrondissement de localisation de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/arronet
+CTONET,Canton de localisation de l’établissement,Alphanumérique,3,Oui,Oui,Oui,/sirene/public/variable/ctonet
+COMET,Commune de localisation de l’établissement,Alphanumérique,3,Oui,Oui,Oui,/sirene/public/variable/comet
+LIBCOM,Libellé de la commune de localisation de l’établissement,Alphanumérique,32,Oui,Oui,Oui,/sirene/public/variable/libcom
+DU,Département de l’unité urbaine de la localisation de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/du
+TU,Taille de l’unité urbaine,Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/tu
+UU,Numéro de l’unité urbaine,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/uu
+EPCI,Localisation de l’établissement dans un établissement public de coopération intercommunale,Alphanumérique,9,Oui,Oui,Oui,/sirene/public/variable/syr-epci
+TCD,Tranche de commune détaillée,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/tcd
+ZEMET,Zone d’emploi,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/zemet
+CODEVOIE,Code voie,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/codevoie
+NUMVOIE,Numéro dans la voie,"Alphanumérique.Attention, cette variable est cadrée à droite.",4,Non,Oui,Oui,/sirene/public/variable/numvoie
+INDREP,Indice de répétition,Alphanumérique.,1,Non,Oui,Oui,/sirene/public/variable/indrep
+TYPVOIE,Type de la voie de localisation de l’établissement,Alphanumérique,4,Non,Oui,Oui,/sirene/public/variable/typvoie
+LIBVOIE,Libellé de la voie de localisation de l’établissement,Alphanumérique,32,Non,Oui,Oui,/sirene/public/variable/libvoie
+CODPOS,Code postal,Alphanumérique,5,Oui,Oui,Oui,/sirene/public/variable/codpos
+CEDEX,Code Cedex,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-cedex
+SIEGE,Qualité de siège ou non de l’établissement,Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/siege
+ENSEIGNE,Enseigne ou nom de l’exploitation,Alphanumérique,40,Oui,Oui,Oui,/sirene/public/variable/enseigne
+NOM_COM,Nom commercial,Alphanumérique,100,Oui,Oui,Oui,/sirene/public/variable/syr-nom-com
+NATETAB,Nature de l’établissement d’un entrepreneur individuel,Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/syr-natetab
+LIBNATETAB,Libellé de la nature de l’établissement d’un entrepreneur individuel,Alphanumérique,30,Oui,Oui,Oui,/sirene/public/variable/syr-libnatetab
+APET700,Activité principale de l’établissement,Alphanumérique,5,Oui,Oui,Oui,/sirene/public/variable/apet700-rev2
+LIBAPET,Libellé de l’activité principale de l’établissement,Alphanumérique,65,Oui,Oui,Oui,/sirene/public/variable/syr-libapet
+DAPET,Année de validité de l’activité principale de l’établissement,Alphanumérique.Elle se présente sous la forme : AAAA,4,Non,Oui,Oui,/sirene/public/variable/dapet
+TEFET,Tranche d’effectif salarié de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/tefet
+LIBTEFET,Libellé de la tranche d’effectif salarié de l’établissement,Alphanumérique,23,Oui,Non,Non,/sirene/public/variable/syr-libtefet
+EFETCENT,Effectif salarié de l’établissement à la centaine près,Alphanumérique,6,Oui,Oui,Oui,/sirene/public/variable/efetcent
+DEFET,Année de validité de l’effectif salarié de l’établissement,Alphanumérique.Elle se présente sous la forme : AAAA,4,Non,Oui,Oui,/sirene/public/variable/defet
+ORIGINE,Origine de la création de l’établissement,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/origine
+DCRET,Date de création de l’établissement,"Alphanumérique.Elle se présente sous la forme AAAAMM (dessins M et L) ou AAAAMMJJ (dessin XL).Cette date peut ne comporter que des informations partielles (unités anciennes au répertoire Sirene). Elle n'est systématiquement renseignée que depuis 1980. Avant cette date, elle a été reprise des différents registres du commerce et des sociétés, de l'industrie etc.",6 pour les dessins M et L8 pour le dessin XL,Oui,Oui,Oui,/sirene/public/variable/syr-dcret
+DREACTET,"Date de réactivation de l’établissement (année, mois, jour) ",Alphanumérique.Elle se présente sous la forme : AAAAMMJJ,8,Non,Non,Oui,/sirene/public/variable/dreactet
+AMINTRET,Année et mois d’introduction de l’établissement dans la base de diffusion,Alphanumérique.Elle se présente sous la forme : AAAAMM,6,Oui,Oui,Oui,/sirene/public/variable/syr-amintret
+ACTIVNAT,Nature de l’activité de l’établissement,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/activnat
+LIEUACT,Lieu de l’activité de l’établissement,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/lieuact
+ACTISURF,Type de magasin,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/actisurf
+SAISONAT,Caractère saisonnier ou non de l’activité de l’établissement,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/saisonat
+MODET,Modalité de l’activité principale de l’établissement,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/modet
+PRODET,Caractère productif de l’établissement,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-prodet
+PRODPART,Participation particulière à la production de l’établissement,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-prodpart
+AUXILT,Caractère auxiliaire de l’activité de l’établissement,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/auxilt
+DESTINAT,Destination de l’établissement,Alphanumérique,2,Non,Non,Oui,/sirene/public/variable/destinat
+SIRETPS,Siret du prédécesseur ou du successeur,Alphanumérique,14,Non,Non,Oui,/sirene/public/variable/siretps
+NOMEN_LONG,Nom ou raison sociale de l’entreprise,Alphanumérique,131,Oui,Oui,Oui,/sirene/public/variable/syr-nomen-long
+SIGLE,Sigle de l’entreprise,Alphanumérique,20,Non,Oui,Oui,/sirene/public/variable/sigle
+CIVILITE,Civilité des entrepreneurs individuels,Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/civilite
+NJ,Nature juridique de l’entreprise,Alphanumérique,4,Oui,Oui,Oui,/sirene/public/variable/syr-nj
+LIBNJ,Libellé de la nature juridique,Alphanumérique,100,Oui,Oui,Oui,/sirene/public/variable/syr-libnj
+APEN700,Activité principale de l’entreprise,Alphanumérique,5,Oui,Oui,Oui,/sirene/public/variable/apen700-rev2
+LIBAPEN,Libellé de l’activité principale de l’entreprise,Alphanumérique,65,Oui,Oui,Oui,/sirene/public/variable/syr-libapen
+DAPEN,Année de validité de l’activité principale de l’entreprise,Alphanumérique.Elle se présente sous la forme : AAAA,4,Non,Oui,Oui,/sirene/public/variable/dapen
+APRM,Activité principale au registre des métiers,Alphanumérique,6,Oui,Oui,Oui,/sirene/public/variable/aprm
+TEFEN,Tranche d’effectif salarié de l’entreprise,Alphanumérique,2,Oui,Oui,Oui,/sirene/public/variable/tefen
+LIBTEFEN,Libellé de la tranche d’effectif salarié de l’entreprise,Alphanumérique,23,Oui,Non,Non,/sirene/public/variable/syr-libtefen
+EFENCENT,Effectif salarié de l’entreprise à la centaine près,Alphanumérique,6,Oui,Oui,Oui,/sirene/public/variable/efencent
+DEFEN,Année de validité de l’effectif salarié de l’entreprise,Alphanumérique.Elle se présente sous la forme : AAAA,4,Non,Oui,Oui,/sirene/public/variable/defen
+CATEGORIE,Catégorie de l’entreprise,Alphanumérique,5,Oui,Oui,Oui,/sirene/public/variable/syr-categorie
+DCREN,Date de création de l’entreprise,"Alphanumérique.Elle se présente sous la forme AAAAMM (dessin M et L) ou AAAAMMJJ (dessin XL).Cette date peut ne comporter que des informations partielles (unités anciennes au répertoire Sirene). Elle n'est systématiquement renseignée que depuis 1980. Avant cette date, elle a été reprise des différents registres du commerce et des sociétés, de l'industrie etc.",6 pour les dessins M et L8 pour le dessin XL,Non,Oui,Oui,/sirene/public/variable/syr-dcren
+DREACTEN,"Date de réactivation de l’entreprise (année, mois, jour)  ",Alphanumérique.Elle se présente sous la forme : AAAAMMJJ,8,Non,Non,Oui,/sirene/public/variable/dreacten
+AMINTREN,Année et mois d’introduction de l’entreprise dans la base de diffusion,Alphanumérique.Elle se présente sous la forme : AAAAMM,6,Non,Oui,Oui,/sirene/public/variable/syr-amintren
+MONOACT,Indice de monoactivité de l’entreprise,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/monoact
+MODEN,Modalité de l’activité principale de l’entreprise,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/moden
+PRODEN,Caractère productif de l’entreprise,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-proden
+ESAANN,Année de validité des rubriques de niveau entreprise en provenance de l’ESA,Alphanumérique.Elle se présente sous la forme : AAAA,4,Non,Oui,Oui,/sirene/public/variable/syr-esaann
+TCA,Tranche de chiffre d’affaires pour les entreprises enquêtées par l’ESA,Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/tca
+ESAAPEN,Activité principale de l’entreprise issue de l’ESA,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-esaapen
+ESASEC1N,Première activité secondaire déclarée dans l’ESA,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-esasec1n
+ESASEC2N,Deuxième activité secondaire déclarée dans l’ESA,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-esasec2n
+ESASEC3N,Troisième activité secondaire déclarée dans l’ESA,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-esasec3n
+ESASEC4N,Quatrième activité secondaire déclarée dans l’ESA,Alphanumérique,5,Non,Oui,Oui,/sirene/public/variable/syr-esasec4n
+REGIMP,Principale région de localisation de l’entreprise,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/regimp
+MONOREG,Indice de monorégionalité de l’entreprise,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/monoreg
+MNICSIEGE,Numéro interne de classement de l’établissement siège ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mnicsiege
+RPEN,Région de localisation du siège de l’entreprise,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/rpen
+DEPCOMEN,Département et commune de localisation du siège de l’entreprise,Alphanumérique,2,Non,Oui,Oui,/sirene/public/variable/depcomen
+VMAJ,"Nature de la mise à jour (création, suppression, modification)",Alphanumérique,1,Oui,Oui,Oui,/sirene/public/variable/syr-vmaj
+VMAJ1,Indicateur de mise à jour no1,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-vmaj1
+VMAJ2,Indicateur de mise à jour no2,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-vmaj2
+VMAJ3,Indicateur de mise à jour no3,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-vmaj3
+DATEMAJ,Date de traitement de la mise à jour ,"Alphanumérique.Elle se présente sous la forme : AAAA-MM-JJTHH:MM:SS- AAAA est l'année,- MM le mois,- JJ le jour,- T (time) séparateur de la date par rapport à l'heure,- HH l'heure, MM les minutes et SS les secondes.Chaque élément de la date a pour séparateur un tiret et chaque élément de l'heure a pour séparateur deux points.",19,Non,Non,Oui,/sirene/public/variable/datemaj
+EVE,Type d’événement ,Alphanumérique,4,Non,Non,Oui,/sirene/public/variable/syr_eve
+DATEVE,Date de l’événement,Alphanumérique.Elle se présente sous la forme : AAAAMMJJIl existe quelques unités pour lesquelles seule l'année AAAA est renseignée. Il s'agit d'unités dont la date exacte d'événement n'est pas connue.Nous vous conseillons d'intégrer une date d'événement conventionnelle non significative pour ces unités afin d'en faciliter le repérage dans vos fichiers.,8,Non,Non,Oui,/sirene/public/variable/dateve
+IND_PUBLIPO,Indicateur du champ du publipostage,Alphanumérique,1,Non,Oui,Oui,/sirene/public/variable/syr-ind-publipo
+MENSEIGNE,Indicateur de mise à jour de L’enseigne de l’entreprise ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/menseigne
+MAPET,Indicateur de mise à jour de l’activité principale de l’établissement ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mapet
+MADRESSE,Indicateur de mise à jour de l’adresse de localisation de l’établissement ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/madresse
+MPRODET,Indicateur de mise à jour du caractère productif de l’établissement ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/syr_mprodet
+MAUXILT,Indicateur de mise à jour du caractère auxiliaire de l’établissement ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mauxilt
+MNOMEN,Indicateur de la mise à jour du nom ou de la raison sociale ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mnomen
+MSIGLE,Indicateur de mise à jour du sigle ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/msigle
+MNJ,Indicateur de la mise à jour de la nature juridique ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/syr_mnj
+MAPEN,Indicateur de mise à jour de l’activité principale de l’entreprise ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mapen
+MPRODEN,Indicateur de mise à jour du caractère productif de l’entreprise ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/syr_mproden
+MNICSIEGE,Indicateur de mise à jour du Nic du siège ou de l’établissement principal ,Alphanumérique,1,Non,Non,Oui,/sirene/public/variable/mnicsiege
+TEL,Téléphone,Alphanumérique.La variable est calée à gauche. Il peut exister des blancs entre les groupes de chiffres.,14,Oui,Non,Oui,/sirene/public/variable/syr-tel
+ADR_MAIL,Adresse mail,Alphanumérique,80,Oui,Non,Oui,/sirene/public/variable/syr-adr-mail
+TYPCRECH,Type de création,Alphanumérique,1,Oui,Non,NA,/sirene/public/variable/syr-typcrech
