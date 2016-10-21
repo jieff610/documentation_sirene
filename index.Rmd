@@ -56,8 +56,7 @@ read_ods(
             rownames = FALSE, 
             escape = FALSE, 
             options = list(
-              autoWidth = TRUE, 
-              language = list(url = 'lib/French.json')
+              autoWidth = FALSE
               )
             )
 ```
