@@ -2,6 +2,7 @@
 title: "Documentation Sirene"
 output: 
   flexdashboard::flex_dashboard:
+    theme: flatly
     orientation: columns
     vertical_layout: fill
 ---
@@ -11,6 +12,7 @@ library(flexdashboard)
 library(dplyr)
 library(readODS)
 library(DT)
+library(stringr)
 library(readr)
 ```
 
@@ -40,14 +42,22 @@ read_ods(
   mutate(
     `Mises à jour Quotidiennes` = as.factor(`Mises à jour Quotidiennes`), 
     longueur = as.integer(longueur), 
-    url = paste0("<a href=\"http://sirene.fr", url, "\">", url, "</a>")
+    url = paste0(
+      "<a href=\"http://sirene.fr", 
+      str_replace(
+        string = url, 
+        pattern = "_", 
+        replacement = ""
+        ), 
+      "\">", url, "</a>")
   ) %>% 
   datatable(., 
             filter = 'top',
             rownames = FALSE, 
             escape = FALSE, 
             options = list(
-              autoWidth = TRUE
+              autoWidth = TRUE, 
+              language = list(url = 'lib/French.json')
               )
             )
 ```
