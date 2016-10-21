@@ -2,17 +2,23 @@ library(dplyr)
 library(DT)
 library(htmlwidgets)
 library(readr)
+library(stringr)
 
-table_variables <- read_csv("data/table_variables.csv")
-
-html_table <- table_variables %>% 
+html_table <- read_csv(
+  file = "data/table_variables.csv"
+  ) %>% 
+  mutate_at(
+    .cols = vars(contains("dessin"), type), 
+    .funs = as.factor
+    ) %>% 
   mutate(
     url = paste0("<a href=\"http://sirene.fr", url, "\">", url, "</a>")
   ) %>% 
   datatable(., 
             filter = 'top',
             rownames = FALSE, 
-            escape = FALSE)
+            escape = FALSE, 
+            style = 'bootstrap')
 
 html_table
 saveWidget(html_table, 'index.html')

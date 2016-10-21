@@ -1,0 +1,54 @@
+---
+title: "Documentation Sirene"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(dplyr)
+library(readODS)
+library(DT)
+library(readr)
+```
+
+Column {data-width=1000}
+-----------------------------------------------------------------------
+
+### Liste des variables
+
+```{r data_table}
+read_ods(
+  path = "data/documentation_sirene.ods", 
+  sheet = 1, 
+  col_types = cols(
+    nom_abrege = col_character(),
+    libelle = col_character(),
+    type = col_character(),
+    longueur = col_integer(),
+    Fichier_Stock = col_character(),
+    `Mises à jour Quotidiennes` = col_character(),
+    url = col_character()
+    )
+  )  %>% 
+  mutate_at(
+    .cols = vars(type, Fichier_Stock), 
+    .funs = as.factor
+  ) %>% 
+  mutate(
+    `Mises à jour Quotidiennes` = as.factor(`Mises à jour Quotidiennes`), 
+    longueur = as.integer(longueur), 
+    url = paste0("<a href=\"http://sirene.fr", url, "\">", url, "</a>")
+  ) %>% 
+  datatable(., 
+            filter = 'top',
+            rownames = FALSE, 
+            escape = FALSE, 
+            options = list(
+              autoWidth = TRUE
+              )
+            )
+```
+
