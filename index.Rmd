@@ -44,12 +44,10 @@ read_ods(
     longueur = as.integer(longueur), 
     url = paste0(
       "<a href=\"http://sirene.fr", 
-      str_replace(
-        string = url, 
-        pattern = "_", 
-        replacement = ""
-        ), 
-      "\">", url, "</a>")
+      url, 
+      "\" target=\"_blank\">", 
+      url, 
+      "</a>")
   ) %>% 
   datatable(., 
             filter = 'top',
