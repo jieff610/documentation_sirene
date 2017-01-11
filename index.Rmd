@@ -5,7 +5,10 @@ output:
     theme: flatly
     orientation: columns
     vertical_layout: fill
+    navbar:
+      - { title: "Data", icon: "fa-database", href: "https://www.data.gouv.fr/fr/datasets/base-sirene-des-entreprises-et-de-leurs-etablissements-siren-siret/", target: "_blank"}
 ---
+
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
