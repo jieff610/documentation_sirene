@@ -40,6 +40,7 @@ read_ods(
     .funs = as.factor
   ) %>% 
   mutate(
+    url = sub(pattern = "/\\_", replacement = "/", x = url), 
     `Mises à jour Quotidiennes` = as.factor(`Mises à jour Quotidiennes`), 
     longueur = as.integer(longueur), 
     url = paste0(
